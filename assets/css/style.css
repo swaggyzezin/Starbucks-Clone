@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+header .line {
+    background-color: #117050;
+    height: 10px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.header--area {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.header-left img {
+    width: 64px;
+    height: 64px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-search form {
+    display: flex;
+}
+
+.header-search input {
+    font-size: 16px;
+    padding: 8px 15px;
+    color: #ccc;
+    outline: 0;
+    width: 100%;
+    max-width: 250px;
+}
+
+.header-search button {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header-search button img {
+    height: 16px;
+    width: 16px;
+    margin-left: -45px;
+}
+
+.header-menu {
+    margin-left: 50px;
+}
+
+.header-menu img {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.banner {
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.banner h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 100px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.banner-img {
+    margin-top: 60px;
+}
+
+.banner-img img {
+    width: 148px;
+    height: 148px;
+    border: 6px solid #117050;
+    border-radius: 50%;
+    margin-right: 20px;
+}
